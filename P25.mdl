@@ -1,0 +1,179 @@
+{UTF-8}
+"Aggressive Driving / Risky Maneuvers"  = A FUNCTION OF( Driver Frustration)
+	~	
+	~		|
+
+Average Travel Time  = A FUNCTION OF( Traffic Congestion)
+	~	
+	~		|
+
+B1  = A FUNCTION OF( )
+	~	
+	~		|
+
+B2  = A FUNCTION OF( )
+	~	
+	~		|
+
+B3  = A FUNCTION OF( )
+	~	
+	~		|
+
+Congestion Relief Pressure  = A FUNCTION OF( Traffic Congestion)
+	~	
+	~		|
+
+Driver Frustration  = A FUNCTION OF( Traffic Congestion)
+	~	
+	~		|
+
+Effective Capacity  = A FUNCTION OF( "Signal / Operations Management",Traffic Incidents\
+		)
+	~	
+	~		|
+
+Perceived Attractiveness of Alternative modes  = A FUNCTION OF( Average Travel Time)
+	~	
+	~		|
+
+Perceived Travel Time Cost of Driving  = A FUNCTION OF( Traffic Congestion)
+	~	
+	~		|
+
+R1  = A FUNCTION OF( )
+	~	
+	~		|
+
+R2  = A FUNCTION OF( )
+	~	
+	~		|
+
+Road Capacity  = A FUNCTION OF( Road Expansion Projects)
+	~	
+	~		|
+
+Road Expansion Projects  = A FUNCTION OF( Congestion Relief Pressure)
+	~	
+	~		|
+
+"Signal / Operations Management"  = A FUNCTION OF( Congestion Relief Pressure)
+	~	
+	~		|
+
+Traffic Congestion  = A FUNCTION OF( Effective Capacity,Road Capacity,Traffic Volume)
+	~	
+	~		|
+
+Traffic Incidents  = A FUNCTION OF( "Aggressive Driving / Risky Maneuvers")
+	~	
+	~		|
+
+Traffic Volume  = A FUNCTION OF( Perceived Travel Time Cost of Driving,Use of Alternative Modes\
+		)
+	~	
+	~		|
+
+Use of Alternative Modes  = A FUNCTION OF( Perceived Attractiveness of Alternative modes\
+		)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,100,2
+10,1,Traffic Congestion,658,272,59,33,8,3,0,24,-1,0,0,0,0-0-0,0-0-0,|16|B|0-0-0,0,0,0,0,0,0
+10,2,Driver Frustration,493,405,66,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,3,"Aggressive Driving / Risky Maneuvers",509,548,73,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,4,Traffic Incidents,725,568,61,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,5,Effective Capacity,797,419,65,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,6,1,2,1,0,43,0,0,192,0,-1--1--1,,1|(490,312)|
+1,7,2,3,1,0,43,0,0,192,0,-1--1--1,,1|(431,444)|
+1,8,3,4,1,0,43,0,0,192,0,-1--1--1,,1|(620,680)|
+1,9,4,5,1,0,45,0,0,192,0,-1--1--1,,1|(834,515)|
+1,10,5,1,1,0,45,0,0,192,0,-1--1--1,,1|(800,280)|
+10,11,R1,634,447,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,12,Congestion Relief Pressure,916,393,65,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,13,Road Capacity,901,122,54,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,14,1,12,1,0,43,0,0,192,0,-1--1--1,,1|(762,372)|
+1,15,13,1,1,0,45,0,0,192,0,-1--1--1,,1|(712,143)|
+10,16,Road Expansion Projects,1072,223,60,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,17,12,16,1,0,43,0,0,192,0,-1--1--1,,1|(1046,363)|
+1,18,16,13,1,0,45,0,0,192,0,-1--1--1,,1|(1021,124)|
+10,19,Perceived Travel Time Cost of Driving,635,62,74,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,20,Traffic Volume,469,187,55,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,21,1,19,1,0,45,0,0,192,0,-1--1--1,,1|(740,159)|
+1,22,19,20,1,0,45,0,0,192,0,-1--1--1,,1|(499,88)|
+1,23,20,1,1,0,43,0,0,192,0,-1--1--1,,1|(520,297)|
+10,24,B1,854,231,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,25,R2,697,176,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,26,Average Travel Time,310,381,56,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,27,Perceived Attractiveness of Alternative modes,277,265,67,36,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,28,Use of Alternative Modes,261,160,66,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,29,1,26,1,0,43,0,0,192,0,-1--1--1,,1|(546,432)|
+1,30,26,27,1,0,43,0,0,192,0,-1--1--1,,1|(221,357)|
+1,31,27,28,1,0,45,0,0,192,0,-1--1--1,,1|(191,235)|
+1,32,28,20,1,0,43,0,0,192,0,-1--1--1,,1|(364,115)|
+10,33,B2,380,263,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,34,"Signal / Operations Management",1086,444,71,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,35,12,34,1,0,43,0,0,192,0,-1--1--1,,1|(1049,332)|
+1,36,34,5,1,0,45,0,0,192,0,-1--1--1,,1|(928,580)|
+10,37,B3,913,489,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+///---\\\
+:L<%^E!@
+5:Traffic Congestion
+19:100,0
+24:0
+25:0
+26:0
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:0
+72:0
+73:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Vensim Sans|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1
