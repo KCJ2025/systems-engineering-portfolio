@@ -1,0 +1,325 @@
+{UTF-8}
+Academic calendar  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Adaptive signal control & progression tuning"  = A FUNCTION OF( )
+	~	
+	~		|
+
+AND  = A FUNCTION OF( )
+	~	
+	~		|
+
+Blocking the box  = A FUNCTION OF( "Box marking + enforcement")
+	~	
+	~		|
+
+"Box marking + enforcement"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Carpool / Vanpool programs (HOV incentives)"  = A FUNCTION OF( )
+	~	
+	~		|
+
+Construction traffic management plan  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Construction/land-use intensity"  = A FUNCTION OF( Construction traffic management plan\
+		)
+	~	
+	~		|
+
+"Control & Operations"  = A FUNCTION OF( "Cycle length & split mismatch vs demand",Detection failures\
+		,"Poor progression / bad offsets")
+	~	
+	~		|
+
+"Crashes / fender-benders"  = A FUNCTION OF( Traffic Incident Management)
+	~	
+	~		|
+
+Curb management  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Cycle length & split mismatch vs demand"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Demand / Trip Generation"  = A FUNCTION OF( "Peak-period volume (AM/PM)","SOV share / low occupancy"\
+		,"Special-event demand")
+	~	
+	~		|
+
+Detection failures  = A FUNCTION OF( "Detection repair & health monitoring")
+	~	
+	~		|
+
+"Detection repair & health monitoring"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Driver Behavior & Information"  = A FUNCTION OF( Blocking the box,"Navigation-app herding onto locals"\
+		,Parking search)
+	~	
+	~		|
+
+"Driveway density / access friction"  = A FUNCTION OF( Curb management)
+	~	
+	~		|
+
+"Driveway/parking maneuvers"  = A FUNCTION OF( )
+	~	
+	~		|
+
+Emergency responses  = A FUNCTION OF( "Pre-planned emergency response routing")
+	~	
+	~		|
+
+"Exogenous/Temporal"  = A FUNCTION OF( Academic calendar,"Construction/land-use intensity"\
+		,"Weather reduces capacity & increases headways")
+	~	
+	~		|
+
+"Intersection saturation-flow limits"  = A FUNCTION OF( "Driveway/parking maneuvers")
+	~	
+	~		|
+
+"Navigation-app herding onto locals"  = A FUNCTION OF( "Real-time traveler information / geofencing"\
+		)
+	~	
+	~		|
+
+"Network Supply / Capacity"  = A FUNCTION OF( "Driveway density / access friction","Intersection saturation-flow limits"\
+		,"Short turn-bay storage / high LT%")
+	~	
+	~		|
+
+"Non-Recurrent Disruptions"  = A FUNCTION OF( "Crashes / fender-benders",Emergency responses\
+		,"Stalled/disabled vehicles / debris")
+	~	
+	~		|
+
+OR  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Parking pricing & supply management"  = A FUNCTION OF( )
+	~	
+	~		|
+
+Parking search  = A FUNCTION OF( "Parking pricing & supply management")
+	~	
+	~		|
+
+"Peak-period volume (AM/PM)"  = A FUNCTION OF( "Staggered hours & telework")
+	~	
+	~		|
+
+"Poor progression / bad offsets"  = A FUNCTION OF( "Adaptive signal control & progression tuning"\
+		)
+	~	
+	~		|
+
+"Pre-planned emergency response routing"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Real-time traveler information / geofencing"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Short turn-bay storage / high LT%"  = A FUNCTION OF( "Turn-pocket optimization")
+	~	
+	~		|
+
+"SOV share / low occupancy"  = A FUNCTION OF( "Carpool / Vanpool programs (HOV incentives)"\
+		)
+	~	
+	~		|
+
+"Special-event demand"  = A FUNCTION OF( "Special-event transport plan")
+	~	
+	~		|
+
+"Special-event transport plan"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Staggered hours & telework"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Stalled/disabled vehicles / debris"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Traffic Congestion College Station,mitigations"  = A FUNCTION OF( "Control & Operations"\
+		,"Demand / Trip Generation","Driver Behavior & Information","Exogenous/Temporal","Network Supply / Capacity"\
+		,"Non-Recurrent Disruptions")
+	~	
+	~		|
+
+Traffic Incident Management  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Turn-pocket optimization"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Weather reduces capacity & increases headways"  = A FUNCTION OF( "Wet-weather timing plan & speed advisories"\
+		)
+	~	
+	~		|
+
+"Wet-weather timing plan & speed advisories"  = A FUNCTION OF( )
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,5,2
+10,1,"Traffic Congestion College Station,mitigations",1132,181,108,31,8,3,0,24,-1,0,0,0,0-0-0,0-0-0,|16|B|0-0-0,0,0,0,0,0,0
+10,2,"Demand / Trip Generation",611,333,56,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,3,"Network Supply / Capacity",794,398,64,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,4,"Control & Operations",1110,440,46,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,5,"Non-Recurrent Disruptions",1363,439,57,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,6,"Driver Behavior & Information",1570,405,65,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,7,"Exogenous/Temporal",1736,323,78,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,8,"Peak-period volume (AM/PM)",159,439,65,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,9,"SOV share / low occupancy",359,490,61,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,10,"Special-event demand",486,515,52,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,11,"Staggered hours & telework",67,733,63,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,12,"Carpool / Vanpool programs (HOV incentives)",232,739,69,36,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,13,"Special-event transport plan",384,749,56,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+1,14,2,1,0,0,43,13,0,192,0,-1--1--1,,1|(0,0)|
+1,15,3,1,0,0,43,13,0,192,0,-1--1--1,,1|(0,0)|
+1,16,4,1,0,0,43,13,0,192,0,-1--1--1,,1|(0,0)|
+1,17,5,1,0,0,43,13,0,192,0,-1--1--1,,1|(0,0)|
+1,18,6,1,0,0,43,13,0,192,0,-1--1--1,,1|(0,0)|
+1,19,7,1,0,0,43,13,0,192,0,-1--1--1,,1|(0,0)|
+1,20,8,2,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,21,9,2,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,22,10,2,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,23,11,8,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+1,24,12,9,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+1,25,13,10,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+10,26,"Intersection saturation-flow limits",621,592,78,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,27,"Short turn-bay storage / high LT%",763,644,71,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,28,"Driveway density / access friction",917,619,66,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+1,29,26,3,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,30,27,3,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,31,28,3,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+10,32,"Poor progression / bad offsets",977,727,66,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,33,"Cycle length & split mismatch vs demand",1095,658,78,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,34,Detection failures,1246,734,66,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+1,35,32,4,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,36,33,4,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,37,34,4,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+10,38,"Driveway/parking maneuvers",576,851,68,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,39,"Turn-pocket optimization",716,856,51,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,40,Curb management,849,861,52,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+1,41,38,26,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+1,42,39,27,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+1,43,40,28,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+10,44,"Adaptive signal control & progression tuning",981,926,72,36,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,45,"Detection repair & health monitoring",1227,933,70,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,46,"Crashes / fender-benders",1313,645,59,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,47,"Stalled/disabled vehicles / debris",1420,642,62,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,48,Emergency responses,1536,601,46,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+1,49,46,5,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,50,47,5,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,51,48,5,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+10,52,Blocking the box,1635,731,64,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,53,Parking search,1758,730,57,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,54,"Navigation-app herding onto locals",1886,736,73,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+1,55,52,6,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,56,53,6,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,57,54,6,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+10,58,"Weather reduces capacity & increases headways",1949,610,76,36,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,59,Academic calendar,2077,576,46,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,60,"Construction/land-use intensity",2250,530,77,36,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+1,61,58,7,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,62,59,7,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,63,60,7,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+10,64,"Box marking + enforcement",1614,875,56,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,65,"Parking pricing & supply management",1776,867,77,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,66,"Real-time traveler information / geofencing",1931,879,68,36,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+1,67,44,32,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+1,68,45,34,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+1,69,64,52,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+1,70,65,53,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+1,71,66,54,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+10,72,"Wet-weather timing plan & speed advisories",2056,765,76,36,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,73,Construction traffic management plan,2290,664,74,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+1,74,72,58,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+1,75,73,60,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+10,76,OR,341,424,46,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,77,AND,1093,906,46,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,78,Traffic Incident Management,1387,947,58,26,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+10,79,"Pre-planned emergency response routing",1537,957,78,36,8,3,0,16,-1,0,0,0,0-0-0,0-0-0,||B|0-0-0,0,0,0,0,0,0
+1,80,78,46,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+1,81,79,48,0,0,45,2,0,192,0,-1--1--1,,1|(0,0)|
+///---\\\
+:L<%^E!@
+5:"Traffic Congestion College Station,mitigations"
+19:5,0
+24:0
+25:0
+26:0
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:0
+72:0
+73:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Vensim Sans|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1
